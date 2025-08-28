@@ -1,2 +1,2 @@
 # Currency-Converter
-DIgital Currency Converter
+Digital Currency Converter
