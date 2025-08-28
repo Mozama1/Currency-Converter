@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5rem;
+    background-color: #CADCAE;
+   
+padding: 0 5rem;
+}
+/* .circle1{
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  background:yellow;
+  filter: blur(100px);
+} */
+.container{
+    margin-top: 5rem;
+    background-color: #E1E9C9;
+  padding: 2rem;
+  border-radius: 1rem;
+  min-height: 45vh;
+  width: 40vh;
+border:4px dashed  #EDA35A;
+/* box-shadow: 0 0 20px #FEE8D9; */
+justify-content: center;
+display:flex;
+flex-direction: column;
+align-items: center ;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+.amount p{
+  padding-bottom: 0.3rem;
+}
+form select,button,input{
+     width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+
+}
+.select-container select::-webkit-scrollbar{
+  background: #CADCAE;
+  width: 0.5rem;
+}
+
+.select-container  select{
+  background-color: transparent;
+}
+form input {
+  border: 1px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+
+}
+form input:focus{
+  border: 2px solid #EDA35A;
+}
+.fromTo i{
+   font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.fromTo{
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-container img {
+  max-width: 2rem;
+}
+.from , .to{
+     margin-top: 2rem;
+
+}
+.to p{
+margin-left: 4rem;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+   margin-top: 1rem;
+  border: 1px solid lightgray;
+  
+}
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+.msg{
+    margin-top: 2rem;
+    align-items: center;
+     margin-left: 2rem;
+}
+.output{
+    margin-top: 2rem;
+    align-items: center;
+    width: 13rem;
+    height: 3rem;
+    margin-left: 2rem;
+    background-color: #EDA35A;
+    color:white;
+    transition:transform 0.2s ease-in-out ,background-color 0.2s ease-in-out;
+}
+.output:hover{
+  background-color: white;
+  border: 2px solid #EDA35A;
+  color: #EDA35A;
+  ;
+  cursor:pointer;
+
+}
+
+@media  (max-width:375px){
+  .container{
+
+   
+  padding: 1rem;
+  min-height: 40vh;
+  width: 35vh;
+}
+
+form input {
+
+  font-size: 0.9rem;
+  height: 2.3rem;
+  padding-left: 0.3rem;
+}
+.output{
+    margin-top: 2rem;
+   
+    width: 10rem;
+    height: 2.3rem;
+    
+   
+}
+.fromTo i{
+   font-size: 1rem;
+  
+}
+}
+@media  (max-width:295px){
+  .container{
+
+   
+  padding: 1rem;
+  width: 33vh;
+}
+}
+@media  (max-width:262px){
+  .container{
+
+   
+  padding: 1rem;
+  width: 30vh;
+}
+.select-container {
+  width:5.5rem;
+
+}
+.select-container  select{
+  font-size: 0.8rem;
+
+}
+}
